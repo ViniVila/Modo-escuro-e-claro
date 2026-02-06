@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>TechNews</title>
+</head>
+
+<body id="pagina">
+
+    <h1 id="titulo">MagoNews</h1>
+
+    <p id="texto">
+        Modo escuro e Modo Claro.
+    </p>
+
+    <button onclick="modoDark()">Modo Dark</button>
+    <button onclick="modoLight()">Modo Light</button>
+
+    <script>
+        function modoDark() {
+            document.body.style.backgroundColor = "black";
+            document.body.style.color = "white";
+        }
+
+        function modoLight() {
+            document.body.style.backgroundColor = "white";
+            document.body.style.color = "black";
+        }
+    </script>
+
+</body>
+</html>
